@@ -1,0 +1,36 @@
+.src_Subtitles {
+	display: flex;
+	width: 25%;
+	height: 290px;
+	border-radius: 10px;
+	text-align: center;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	margin: auto;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 80px;
+}
+
+.src_Text {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 100%;
+	height: auto;
+	background-color: #002633;
+	border: 4px solid #2A9D8F;
+	border-radius: 10px;
+	color: #F26419;
+	margin-top: 2%;
+	margin-bottom: 2%;
+	cursor: pointer;
+	transition: all 0.2s ease-out;
+	font-size: 20px;
+	text-decoration: none;
+}
+
+.src_Text:hover {
+	background-color: #00364a;
+}

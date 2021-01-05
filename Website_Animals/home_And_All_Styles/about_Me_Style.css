@@ -1,0 +1,138 @@
+.dropDownDiv {
+	width: 50% !important;
+	transform: translateX(50%) !important;
+}
+
+.home_Src, .about_Me_Src {
+	width: 50% !important;
+}
+
+.home {
+	border-top-left-radius: 0px !important;
+	border-bottom-left-radius: 10px !important;
+}
+
+.about_Me {
+	background-color: #00364a;
+	border-radius: 10px;
+}
+
+.about_Div {
+	display: flex;
+	width: 80%;
+	height: auto;
+	background-color: #002633;
+	border: 4px solid #2A9D8F;
+	border-radius: 10px;
+	color: #fff;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 8%;
+	margin-bottom: 8%;
+}
+
+h1 {
+	display: inline-block;
+	font-size: 40px;
+	color: #F26419;
+	width: 20%;
+	height: auto;
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+	border-radius: 10px;
+	margin-top: 4%;
+	margin-bottom: 20px;
+}
+
+p {
+	display: flex;
+	font-size: 30px;
+	color: #2A9D8F;
+	width: auto;
+	max-width: 90%;
+	height: auto;
+	margin-left: auto;
+	margin-right: auto;
+	justify-content: center;
+	align-items: center;
+	margin-top: 10px;
+}
+
+.down_To_Inst_Fcb_Div {
+	display: flex;
+	width: 20%;
+	height: 50px;
+	justify-content: space-between;
+	align-items: center;
+	flex-direction: row;
+	margin-top: 2%;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: auto;
+}
+
+.down_To_Inst_Fcb {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 50px;
+	height: 50px;
+	transform: rotate(-90deg);
+	color: #2A9D8F;
+	opacity: 1 !important;
+	margin-top: 2%;
+	margin-bottom: 2%;
+	font-size: 35px !important;
+}
+
+.inst_fcb_Div {
+	display: flex;
+	width: 20%;
+	height: 50px;
+	margin-top: 2%;
+	margin-bottom: 4%;
+	margin-left: auto;
+	margin-right: auto;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.inst_Src {
+	display: flex;
+	width: 50px;
+	height: 50px;
+	justify-content: center;
+	align-items: center;
+}
+
+.fcb_Src {
+	display: flex;
+	width: 46px;
+	height: 46px;
+	justify-content: center;
+	align-items: center;
+}
+
+.instagram_Img, .facebook_Img {
+	display: inline-block;
+	width: 100%;
+	height: 100%;
+	margin: 0;
+	padding: 0;
+	border-radius: 10px;
+	transition: all 0.3s ease-out;
+}
+
+.instagram_Img:hover, .facebook_Img:hover {
+	transform: translateY(-8px);
+	box-shadow: 0px 0px 10px 0px rgba(51, 51, 51, 1);
+}
+
+.dropDownDiv {
+	transform: translateX(50%) !important;
+}
